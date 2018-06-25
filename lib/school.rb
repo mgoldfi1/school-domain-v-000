@@ -1,13 +1,13 @@
 # code here!
 class School
   def initialize(name)
-    @name = name 
+    @name = name
     roster = {}
-  end 
+  end
   def add_student(name,grade)
     roster[grade] = []
     roster[grade] << name
-  end 
+  end
 end
-    
+
   
